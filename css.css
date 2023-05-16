@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    background-color:  #F0EDEA;
+    }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Navbar{
+    position: fixed;
+    
+    top: 1em;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #FFB02C;
+    z-index: 5;
+}
+
+.NavElement{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 97.4%;
+    color: #FFFFFF;
+}
+
+
+.titolo{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+
+.titolo .img{
+    display: flex;
+    width: 60%;
+    align-content: space-between;
+
+  }
+
+.titolo img{
+    width: 100%;
+    object-fit: cover;
+
+  }
+
+  .titolo p{
+    margin-left: 150px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 97.4%;
+
+  }
+
+  .colazioni{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .colazioni .q{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: right;
+    margin-bottom: 500px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+ .colazioni .imgcol{
+    display: flex;
+    width: 40%;
+    align-content: space-between;
+  }
+
+ .colazioni .imgcol img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .colazioni .text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: center;
+    margin-right: 300px;
+    
+  
+    
+  }
+
+  .colazioni .nome{
+    display: flex;
+    text-align: end;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 97.4%;
+    color: #FFB02C;
+    
+    
+
+  }
+
+  .colazioni .rect{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 400px;   
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: -4px 6px 20px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    padding: 40px;
+    
+  }
+
+  .colazioni .rect p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 97.4%;
+    text-align: right;
+    color: #1E1E1E;
+    margin-left: 100px;
+    
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    left: 0;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+ }
+
+
+
+ .footer p{
+    margin-left: 50px;
+    margin-bottom: 90px;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 97.4%;
+    color: #ffffff;
+ }
+.footer .img{
+    
+
+    flex-wrap: wrap;
+    width: 30%;
+}
+ .footer img{
+    width: 100%;
+ }
